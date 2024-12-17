@@ -24,7 +24,7 @@ sInfo_stDemo.drop(columns=['Building Suite',
         'Change in Grade 9 Mathematics Achievement Over Three Years',
         'Change in Grade 10 OSSLT Literacy Achievement Over Three Years'
         ], inplace=True)
-print(sInfo_stDemo.columns)
+# print(sInfo_stDemo.columns)
 
 def create_boardDB():
     board_df = sInfo_stDemo[['Board Number', 'Board Name', 'Board Type']]
@@ -80,5 +80,8 @@ def create_achiveDB():
            'Extract Date']]
     achieve_df.to_sql('Achievements', connection, if_exists='replace')
 create_achiveDB()
+
+boardFinanc = pd.read_csv("boardFinancial.csv")
+print(boardFinanc.loc[54])
 
 connection.close()
