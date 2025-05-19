@@ -3,7 +3,7 @@
 Curious about how our **government** is **performing in public education sector**? Wondering what **challanges** they must overcome? And most importantly, how are **students performing** in response **to different stratigies**? 
 That’s exactly what the Schools Analysis Dashboard is designed to **reveal**.
 
-### This dashboard answers this questions by:
+### How this dashboard answers this questions:
 * Monitors **student achievement across grades**, broken down **by subjects** and **key tests**.
 * **Examines** how **leading school boards** allocate their **budgets** and the resulting effects on **student success**.
 *  **Plots schools on an interactive map** to explore how **location** and **demographics** influences educational **outcomes**.
